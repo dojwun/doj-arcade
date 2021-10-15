@@ -118,64 +118,64 @@ AddEventHandler('rcore_arcade:client:playArcade', function(args)
         SendNUIMessage({
             type = "on",
             game = 'http://xogos.robinko.eu/PACMAN/',
-            gpu = Config.GPUList[2],
-            cpu =  Config.CPUList[2],
+            gpu = Config.GPUList[1],
+            cpu =  Config.CPUList[1],
             SetNuiFocus(true, true)
         })
         elseif args == 2  then
             SendNUIMessage({
                 type = "on",
                 game = 'http://xogos.robinko.eu/TETRIS/',
-                gpu = Config.GPUList[2],
-                cpu =  Config.CPUList[2],
+                gpu = Config.GPUList[1],
+                cpu =  Config.CPUList[1],
                 SetNuiFocus(true, true)
             })
         elseif args == 3 then
             SendNUIMessage({
                 type = "on",
                 game = 'http://xogos.robinko.eu/PONG/',
-                gpu = Config.GPUList[2],
-                cpu =  Config.CPUList[2],
+                gpu = Config.GPUList[1],
+                cpu =  Config.CPUList[1],
                 SetNuiFocus(true, true)
             })
         elseif args == 4 then
             SendNUIMessage({
                 type = "on",
                 game = 'http://lama.robinko.eu/fullscreen.html',
-                gpu = Config.GPUList[2],
-                cpu =  Config.CPUList[2],
+                gpu = Config.GPUList[1],
+                cpu =  Config.CPUList[1],
                 SetNuiFocus(true, true)
             })
         elseif args == 5 then
             SendNUIMessage({
                 type = "on",
                 game = 'http://uno.robinko.eu/fullscreen.html',
-                gpu = Config.GPUList[2],
-                cpu =  Config.CPUList[2],
+                gpu = Config.GPUList[1],
+                cpu =  Config.CPUList[1],
                 SetNuiFocus(true, true)
             })
         elseif args == 6 then
             SendNUIMessage({
                 type = "on",
                 game = 'http://ants.robinko.eu/fullscreen.html',
-                gpu = Config.GPUList[2],
-                cpu =  Config.CPUList[2],
+                gpu = Config.GPUList[1], 
+                cpu =  Config.CPUList[1],
                 SetNuiFocus(true, true)
             })
         elseif args == 7 then
             SendNUIMessage({
                 type = "on",
                 game = 'http://xogos.robinko.eu/FlappyParrot/',
-                gpu = Config.GPUList[2],
-                cpu =  Config.CPUList[2],
+                gpu = Config.GPUList[1],
+                cpu =  Config.CPUList[1],
                 SetNuiFocus(true, true)
             })
         else  
             SendNUIMessage({
                 type = "on",
                 game = 'http://zoopaloola.robinko.eu/Embed/fullscreen.html',
-                gpu = Config.GPUList[2],
-                cpu =  Config.CPUList[2],
+                gpu = Config.GPUList[1],
+                cpu =  Config.CPUList[1],
                 SetNuiFocus(true, true)
             })
     end
