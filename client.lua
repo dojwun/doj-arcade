@@ -362,7 +362,7 @@ function openComputerMenu()
         },
         {
             id = 10,
-            header = "Play Gulper.io",
+            header = "Play Gulper.io (NEW)",
 			txt = "",
 			params = {
                 event = "rcore_arcade:client:playArcade",
@@ -371,7 +371,7 @@ function openComputerMenu()
         },
         {
             id = 11,
-            header = "Play Solitaire",
+            header = "Play Solitaire (NEW)",
 			txt = "",
 			params = {
                 event = "rcore_arcade:client:playArcade",
