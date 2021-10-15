@@ -7,12 +7,15 @@ edited preview: https://streamable.com/ct7g3l
 Mlo in video: SunsetArcade
 
 # Required
-- casinoUi
-https://github.com/dojwun/casinoUi
+- https://github.com/dojwun/casinoUi
+- casinoUi preview:
 
-- nh-context
-https://github.com/dojwun/nh-context
+![General](https://i.imgur.com/t33DItt.png)
 
+- https://github.com/dojwun/nh-context
+- nh-context preview: 
+
+![General](https://i.imgur.com/8hIjMQa.png)
 
 - qb-core/shared.lua info
 ```
