@@ -2,7 +2,7 @@
 
 
 
-Preview: (Coming Soon)
+Preview: https://streamable.com/ct7g3l
 
 # Required
 - casinoUi
@@ -51,7 +51,22 @@ https://github.com/dojwun/nh-context
 		["description"] = "Gold Arcade Card"
 	},
  ``` 
-  
+- qb-inventory/html/js/app.js
+```
+	  else if (itemData.name == "arcadeblue") {
+            $(".item-info-title").html('<p>'+itemData.label+'</p>')
+            $(".item-info-description").html('<p><strong>Owner: </strong>'+itemData.info.owner+'</p><strong>Play Card Time:</strong> '+itemData.info.cardtime+' minutes</p>'); 
+            $(".item-info-stats").html('<p>Weight: '+((itemData.weight * itemData.amount) / 1000).toFixed(1) +' | Amount: '+itemData.amount+ ' | Quality: '+itemData.info.quality.toFixed(0)+'%</p>') 
+        } else if (itemData.name == "arcadegreen") {
+            $(".item-info-title").html('<p>'+itemData.label+'</p>')
+            $(".item-info-description").html('<p><strong>Owner: </strong>'+itemData.info.owner+'</p><strong>Play Card Time:</strong> '+itemData.info.cardtime+' minutes</p>'); 
+            $(".item-info-stats").html('<p>Weight: '+((itemData.weight * itemData.amount) / 1000).toFixed(1) +' | Amount: '+itemData.amount+ ' | Quality: '+itemData.info.quality.toFixed(0)+'%</p>') 
+        } else if (itemData.name == "arcadegold") {
+            $(".item-info-title").html('<p>'+itemData.label+'</p>')
+            $(".item-info-description").html('<p><strong>Owner: </strong>'+itemData.info.owner+'</p><strong>Play Card Time:</strong> '+itemData.info.cardtime+' minutes</p>'); 
+            $(".item-info-stats").html('<p>Weight: '+((itemData.weight * itemData.amount) / 1000).toFixed(1) +' | Amount: '+itemData.amount+ ' | Quality: '+itemData.info.quality.toFixed(0)+'%</p>') 
+        }
+  ```
 - qb-target info
 ```
 -- Arcade
