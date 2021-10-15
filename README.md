@@ -2,7 +2,7 @@
 
 original: https://github.com/Xogy/rcore_arcade
 
-edited preview: https://streamable.com/ct7g3l
+edited preview: https://streamable.com/g438pg
 
 Mlo in video: SunsetArcade
 
