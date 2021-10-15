@@ -1,0 +1,29 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="css/reset.css" type="text/css">
+		<link rel="stylesheet" href="css/style.css" type="text/css">
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:100" rel="stylesheet">
+		<meta charset="UTF-8">
+		<script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	</head>
+	<body id = "body" style = "display:none">
+	
+		<div id = "cont">
+			<progress id="loading" max="100" value="80"></progress>
+			<iframe id = "browser" src="" frameborder="0" scrolling="no">
+				
+			</iframe>
+			<a id = "off_pc">Turn OFF the computer</a>
+		</div>
+		<script src="./scripts/listener.js" type="text/javascript"></script>
+	</body>
+</html>
+
+<script>
+	setInterval(function(){
+		if(gaming){
+			document.getElementById("browser").contentWindow.focus();
+		}
+	},50);
+</script>
