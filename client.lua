@@ -170,10 +170,18 @@ AddEventHandler('rcore_arcade:client:playArcade', function(args)
                 cpu =  Config.CPUList[1],
                 SetNuiFocus(true, true)
             })
-        else  
+        elseif args == 8 then
             SendNUIMessage({
                 type = "on",
                 game = 'http://zoopaloola.robinko.eu/Embed/fullscreen.html',
+                gpu = Config.GPUList[1],
+                cpu =  Config.CPUList[1],
+                SetNuiFocus(true, true)
+            })
+        else  
+            SendNUIMessage({
+                type = "on",
+                game = 'https://gulper.io',
                 gpu = Config.GPUList[1],
                 cpu =  Config.CPUList[1],
                 SetNuiFocus(true, true)
@@ -342,6 +350,15 @@ function openComputerMenu()
 			params = {
                 event = "rcore_arcade:client:playArcade",
                 args = '8'
+            }
+        },
+        {
+            id = 9,
+            header = "Play Gulper.io",
+			txt = "",
+			params = {
+                event = "rcore_arcade:client:playArcade",
+                args = '9'
             }
         },
         {
