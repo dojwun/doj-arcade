@@ -1,8 +1,8 @@
 # Edited Version of Rcore_Arcade for QBus
 
+original: https://github.com/Xogy/rcore_arcade
 
-
-Preview: https://streamable.com/ct7g3l
+edited preview: https://streamable.com/ct7g3l
 
 # Required
 - casinoUi
