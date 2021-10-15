@@ -353,7 +353,7 @@ function openComputerMenu()
             }
         },
         {
-            id = 9,
+            id = 10,
             header = "Play Gulper.io",
 			txt = "",
 			params = {
@@ -362,7 +362,7 @@ function openComputerMenu()
             }
         },
         {
-            id = 10,
+            id = 11,
             header = "Cancel",
 			txt = "",
 			params = {
