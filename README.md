@@ -3,6 +3,10 @@
 
 Preview: (Coming Soon)
 
+# Required
+- casinoUi
+- nh-context
+
 ## qb-core/shared.lua info
 	["arcadegreen"]  = {
 		["name"] = "arcadegreen",
