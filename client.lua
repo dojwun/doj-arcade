@@ -178,10 +178,18 @@ AddEventHandler('rcore_arcade:client:playArcade', function(args)
                 cpu =  Config.CPUList[1],
                 SetNuiFocus(true, true)
             })
-        else  
+        elseif args == 9 then  
             SendNUIMessage({
                 type = "on",
                 game = 'https://gulper.io',
+                gpu = Config.GPUList[1],
+                cpu =  Config.CPUList[1],
+                SetNuiFocus(true, true)
+            })
+        else  
+            SendNUIMessage({
+                type = "on",
+                game = 'https://www.google.com/logos/fnbx/solitaire/standalone.html',
                 gpu = Config.GPUList[1],
                 cpu =  Config.CPUList[1],
                 SetNuiFocus(true, true)
@@ -363,6 +371,15 @@ function openComputerMenu()
         },
         {
             id = 11,
+            header = "Play Solitaire",
+			txt = "",
+			params = {
+                event = "rcore_arcade:client:playArcade",
+                args = '10'
+            }
+        },
+        {
+            id = 12,
             header = "Cancel",
 			txt = "",
 			params = {
