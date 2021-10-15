@@ -83,7 +83,7 @@ exports['qb-target']:AddCircleZone("arcadeTickets", vector3(-1190.781, -774.861,
                 label = "Speak with Arcade Employee",
             },
         },
-    distance = 2.0 
+    distance = 2.5 
 })
 exports['qb-target']:AddBoxZone("ArcadeGames", vector3(-1196.335, -772.748, 17.322), 1.8, 3.5, {
     name="ArcadeGames",
@@ -99,7 +99,7 @@ exports['qb-target']:AddBoxZone("ArcadeGames", vector3(-1196.335, -772.748, 17.3
                 label = "Play Arcade Games", 
             },
         },
-    distance = 2.5
+    distance = 1.0
 })
 exports['qb-target']:AddBoxZone("ArcadeGames2", vector3(-1194.997, -774.573, 17.322), 1.8, 3.5, {
     name="ArcadeGames2",
@@ -115,7 +115,7 @@ exports['qb-target']:AddBoxZone("ArcadeGames2", vector3(-1194.997, -774.573, 17.
                 label = "Play Arcade Games", 
             },
         },
-    distance = 2.5
+    distance = 1.0
 })
 ```
 
