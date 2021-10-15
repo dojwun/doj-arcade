@@ -1,13 +1,19 @@
-# arcade
+# Edited Version of Rcore_Arcade
+
 
 
 Preview: (Coming Soon)
 
 # Required
 - casinoUi
-- nh-context
+https://github.com/dojwun/casinoUi
 
-## qb-core/shared.lua info
+- nh-context
+https://github.com/dojwun/nh-context
+
+
+- qb-core/shared.lua info
+```
 	["arcadegreen"]  = {
 		["name"] = "arcadegreen",
 		["label"] = "Green Arcade Card",
@@ -44,9 +50,9 @@ Preview: (Coming Soon)
 		["combinable"] = nil,   
 		["description"] = "Gold Arcade Card"
 	},
+ ``` 
   
-  
-## qb-target info
+- qb-target info
 ```
 -- Arcade
 exports['qb-target']:AddCircleZone("arcadeTickets", vector3(-1190.781, -774.861, 16.331), 2.0, {
@@ -112,7 +118,7 @@ exports['qb-target']:AddBoxZone("ArcadeGames2", vector3(-1194.997, -774.573, 17.
 
 
 
-###  rcore_arcade (original readme)
+# (original readme) rcore_arcade 
 a simple resource for playing games with friends.<br>this resource is somewhat standalone, it can be run on any framework but dont expect the ticket feature work if you're running it on something other than ESX.
 
 https://www.youtube.com/watch?v=0k2wwr-5FWI&feature=youtu.be&ab_channel=rcore
