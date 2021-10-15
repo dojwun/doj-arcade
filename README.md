@@ -4,6 +4,8 @@ original: https://github.com/Xogy/rcore_arcade
 
 edited preview: https://streamable.com/ct7g3l
 
+Mlo in video: SunsetArcade
+
 # Required
 - casinoUi
 https://github.com/dojwun/casinoUi
