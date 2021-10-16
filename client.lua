@@ -211,8 +211,8 @@ function playerBuyTicketMenu()
         },
         {
             id = 2,
-            header = "Blue Play Card",
-			txt = "Purchase for $5",
+            header = "Blue Play Card $5",
+			txt = "Purchase",
 			params = {
                 event = "rcore_arcade:client:buyTicket",
                 args = '1'
@@ -220,8 +220,8 @@ function playerBuyTicketMenu()
         },
         {
             id = 3,
-            header = "Green Play Card",
-			txt = "Purchase for $15",
+            header = "Green Play Card $15",
+			txt = "Purchase",
 			params = {
                 event = "rcore_arcade:client:buyTicket",
                 args = '2'
@@ -230,8 +230,8 @@ function playerBuyTicketMenu()
         },
         {
             id = 4,
-            header = "Gold Play Card",
-			txt = "Purchase for $25",
+            header = "Gold Play Card $25",
+			txt = "Purchase",
 			params = {
                 event = "rcore_arcade:client:buyTicket",
                 args = '3'
