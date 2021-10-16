@@ -22,6 +22,9 @@ Citizen.CreateThread(function()
             end
             countTime()
             displayTime()
+            if gotTicket == false then
+                exports['casinoUi']:HideCasinoUi('hide')
+            end
         end
     end
 end)
