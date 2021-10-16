@@ -79,8 +79,6 @@ AddEventHandler("rcore_arcade:clientticketResult", function(ticket)
     minutes = Config.ticketPrice[ticket].time
     -- Tell the script that player has Ticket and can enter.
     gotTicket = true
-    QBCore.Functions.Notify("You Bought a "..ticket.." Play Card", "success")
-    Wait(1000)
     QBCore.Functions.Notify("Play Time: "..Config.ticketPrice[ticket].time.." minutes", "primary")
 end)
 
