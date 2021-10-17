@@ -4,10 +4,11 @@ original: https://github.com/Xogy/rcore_arcade
 
 edited preview: https://streamable.com/ylfw1i
 
-Spawning Peds & Arcade mlo will be up too you to decide
 
-Mlo in video: SunsetArcade
+Mlo in video SunsetArcade
 
+download:
+https://drive.google.com/drive/folders/1aRrFoLF-ih_gBuAuDfGahgL8dH0FaQXd?usp=sharing
 
 
 
