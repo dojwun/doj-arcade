@@ -12,7 +12,7 @@ Citizen.CreateThread(function()
         Citizen.Wait(1000)
         if gotTicket then
             if hasPlayerRunOutOfTime() then
-                QBCore.Functions.Notify("Your ticket has expired.")
+                QBCore.Functions.Notify("Your Play Card has expired.")
                 gotTicket = false
                 SendNUIMessage({
                     type = "off",
