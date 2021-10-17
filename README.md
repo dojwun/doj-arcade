@@ -4,7 +4,12 @@ original: https://github.com/Xogy/rcore_arcade
 
 edited preview: https://streamable.com/ylfw1i
 
+Spawning Peds & Arcade mlo will be up too you to decide
+
 Mlo in video: SunsetArcade
+
+
+
 
 # Required
 - https://github.com/dojwun/casinoUi
@@ -75,52 +80,34 @@ Mlo in video: SunsetArcade
 - qb-target info
 ```
 -- Arcade
-exports['qb-target']:AddCircleZone("arcadeTickets", vector3(-1190.781, -774.861, 16.331), 2.0, {
-    name="arcadeTickets",
-    heading=160,
-    debugPoly=false,
-    useZ=true,
-    }, {
-        options = {
-            {
-                event = "arcade:client:openTicketMenu",
-                icon = "fab fa-speakap",
-                label = "Speak with Arcade Employee",
-            },
+exports['qb-target']:AddTargetModel(`cs_lifeinvad_01`, {
+    options = {
+        {
+            event = "arcade:client:openTicketMenu",
+            icon = "fab fa-speakap",
+            label = "Speak with Arcade Employee",
         },
-    distance = 2.5 
+    },
+distance = 2.5 
 })
-exports['qb-target']:AddBoxZone("ArcadeGames", vector3(-1196.335, -772.748, 17.322), 1.8, 3.5, {
-    name="ArcadeGames",
-    heading=214.112,
-    debugPoly=false,
-    minZ=16.9,
-    maxZ=17.922
-    }, {
-        options = {
-            {
-                event = "arcade:client:openArcadeGames",
-                icon = "fas fa-gamepad",
-                label = "Play Arcade Games", 
-            },
+
+
+local ArcadeGames = {
+    `ch_prop_arcade_degenatron_01a`,
+    `ch_prop_arcade_monkey_01a`,
+    `ch_prop_arcade_penetrator_01a`,
+    -395173800,
+
+}
+exports['qb-target']:AddTargetModel(ArcadeGames, {
+    options = {
+        { 
+            event = "arcade:client:openArcadeGames",
+            icon = "fas fa-gamepad",
+            label = "Play Arcade Games",
         },
-    distance = 1.0
-})
-exports['qb-target']:AddBoxZone("ArcadeGames2", vector3(-1194.997, -774.573, 17.322), 1.8, 3.5, {
-    name="ArcadeGames2",
-    heading=214.112,
-    debugPoly=false,
-    minZ=16.9,
-    maxZ=17.922
-    }, {
-        options = {
-            {
-                event = "arcade:client:openArcadeGames",
-                icon = "fas fa-gamepad",
-                label = "Play Arcade Games", 
-            },
-        },
-    distance = 1.0
+    },
+    distance = 3.0 
 })
 ```
 
