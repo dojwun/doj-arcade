@@ -203,43 +203,36 @@ end)
 
 
 function playerBuyTicketMenu()
-    TriggerEvent('nh-context:sendMenu', {
+    exports['qb-menu']:openMenu({
         {
-            id = 1,
             header = "Arcade Employee",
-            txt = ""
+            isMenuHeader = true,
         },
         {
-            id = 2,
             header = "Blue Play Card $5",
-			txt = "Purchase",
+            txt = "Purchase",
 			params = {
                 event = "rcore_arcade:client:buyTicket",
                 args = '1'
             }
         },
         {
-            id = 3,
             header = "Green Play Card $15",
-			txt = "Purchase",
+            txt = "Purchase",
 			params = {
                 event = "rcore_arcade:client:buyTicket",
                 args = '2'
-
             }
         },
         {
-            id = 4,
             header = "Gold Play Card $25",
-			txt = "Purchase",
+            txt = "Purchase",
 			params = {
                 event = "rcore_arcade:client:buyTicket",
                 args = '3'
-
             }
         },
         {
-            id = 5,
             header = "Cancel",
 			txt = "",
 			params = {
@@ -250,14 +243,12 @@ function playerBuyTicketMenu()
 end
 
 function returnTicketMenu()
-    TriggerEvent('nh-context:sendMenu', {
+    exports['qb-menu']:openMenu({
         {
-            id = 1,
             header = "Arcade Employee",
-            txt = ""
+            isMenuHeader = true,
         },
         {
-            id = 2,
             header = "Stop Using Arcade",
 			txt = "End Play Card",
 			params = {
@@ -265,15 +256,12 @@ function returnTicketMenu()
             }
         },
         {
-            id = 3,
             header = "Cancel",
 			txt = "",
 			params = {
                 event = ""
-
             }
         },
-
     })
 end
 
@@ -283,14 +271,12 @@ function openComputerMenu()
         QBCore.Functions.Notify("You do have a valid Play Card", "error")
         return
     end
-    TriggerEvent('nh-context:sendMenu', {
+    exports['qb-menu']:openMenu({
         {
-            id = 1,
             header = "Arcade Game Selection",
-            txt = ""
+            isMenuHeader = true,
         },
         {
-            id = 2,
             header = "Play Pacman",
 			txt = "",
 			params = {
@@ -299,7 +285,6 @@ function openComputerMenu()
             }
         },
         {
-            id = 3,
             header = "Play Tetris",
 			txt = "",
 			params = {
@@ -308,7 +293,6 @@ function openComputerMenu()
             }
         },
         {
-            id = 4,
             header = "Play PingPong",
 			txt = "",
 			params = {
@@ -317,7 +301,6 @@ function openComputerMenu()
             }
         },
         {
-            id = 5,
             header = "Play Slide a Lama",
 			txt = "",
 			params = {
@@ -326,7 +309,6 @@ function openComputerMenu()
             }
         },
         {
-            id = 6,
             header = "Play Uno",
 			txt = "",
 			params = {
@@ -335,7 +317,6 @@ function openComputerMenu()
             }
         },
         {
-            id = 7,
             header = "Play Ants",
 			txt = "",
 			params = {
@@ -344,7 +325,6 @@ function openComputerMenu()
             }
         },
         {
-            id = 8,
             header = "Play FlappyParrot",
 			txt = "",
 			params = {
@@ -353,7 +333,6 @@ function openComputerMenu()
             }
         },
         {
-            id = 9,
             header = "Play Zoopaloola",
 			txt = "",
 			params = {
@@ -362,7 +341,6 @@ function openComputerMenu()
             }
         },
         {
-            id = 10,
             header = "Play Gulper.io (NEW)",
 			txt = "",
 			params = {
@@ -371,7 +349,6 @@ function openComputerMenu()
             }
         },
         {
-            id = 11,
             header = "Play Solitaire (NEW)",
 			txt = "",
 			params = {
@@ -380,7 +357,6 @@ function openComputerMenu()
             }
         },
         {
-            id = 12,
             header = "Cancel",
 			txt = "",
 			params = {
