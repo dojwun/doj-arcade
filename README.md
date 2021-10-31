@@ -1,25 +1,22 @@
 # Edited Version of Rcore_Arcade for QBus
 
-original: https://github.com/Xogy/rcore_arcade
+**[Source](https://github.com/Xogy/rcore_arcade)**
 
-edited preview: https://streamable.com/ylfw1i
+**[Edited preview](https://streamable.com/ylfw1i)**
+
+**[SunsetArcade download](https://drive.google.com/drive/folders/1aRrFoLF-ih_gBuAuDfGahgL8dH0FaQXd?usp=sharing)**
 
 
-Mlo in video SunsetArcade
-
-download:
-https://drive.google.com/drive/folders/1aRrFoLF-ih_gBuAuDfGahgL8dH0FaQXd?usp=sharing
 
 
 
 # Required
-- https://github.com/dojwun/casinoUi
-- casinoUi preview:
+**[casinoUi](https://github.com/dojwun/casinoUi)**
 
 ![General](https://i.imgur.com/t33DItt.png)
 
-- https://github.com/dojwun/nh-context
-- nh-context preview: 
+
+**[qb-menu](https://github.com/qbcore-framework/qb-menu)**
 
 ![General](https://i.imgur.com/8hIjMQa.png)
 
