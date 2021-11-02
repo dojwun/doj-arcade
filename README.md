@@ -20,6 +20,13 @@
 
 ![General](https://i.imgur.com/8hIjMQa.png)
 
+# Images 
+
+![General](https://i.imgur.com/5bLve6O.png)
+![General](https://i.imgur.com/815vDIQ.png)
+![General](https://i.imgur.com/czXFSze.png)
+
+
 - qb-core/shared.lua info
 ```
 	["arcadegreen"]  = {
@@ -75,11 +82,6 @@
             $(".item-info-stats").html('<p>Weight: '+((itemData.weight * itemData.amount) / 1000).toFixed(1) +' | Amount: '+itemData.amount+ ' | Quality: '+itemData.info.quality.toFixed(0)+'%</p>') 
         }
   ```
-
-
-
-
-
 
 
 
