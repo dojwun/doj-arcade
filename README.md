@@ -75,39 +75,6 @@
             $(".item-info-stats").html('<p>Weight: '+((itemData.weight * itemData.amount) / 1000).toFixed(1) +' | Amount: '+itemData.amount+ ' | Quality: '+itemData.info.quality.toFixed(0)+'%</p>') 
         }
   ```
-- qb-target info
-```
--- Arcade
-exports['qb-target']:AddTargetModel(`cs_lifeinvad_01`, {
-    options = {
-        {
-            event = "arcade:client:openTicketMenu",
-            icon = "fab fa-speakap",
-            label = "Speak with Arcade Employee",
-        },
-    },
-distance = 2.5 
-})
-
-
-local ArcadeGames = {
-    `ch_prop_arcade_degenatron_01a`,
-    `ch_prop_arcade_monkey_01a`,
-    `ch_prop_arcade_penetrator_01a`,
-    -395173800,
-
-}
-exports['qb-target']:AddTargetModel(ArcadeGames, {
-    options = {
-        { 
-            event = "arcade:client:openArcadeGames",
-            icon = "fas fa-gamepad",
-            label = "Play Arcade Games",
-        },
-    },
-    distance = 3.0 
-})
-```
 
 
 
