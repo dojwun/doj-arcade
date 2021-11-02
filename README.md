@@ -13,12 +13,7 @@
 # Required
 **[casinoUi](https://github.com/dojwun/casinoUi)**
 
-![General](https://i.imgur.com/t33DItt.png)
-
-
 **[qb-menu](https://github.com/qbcore-framework/qb-menu)**
-
-![General](https://i.imgur.com/8hIjMQa.png)
 
 # Images 
 
