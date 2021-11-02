@@ -365,3 +365,26 @@ function openComputerMenu()
         },
     })
 end
+
+--=================================== Peds
+local arcade= {
+  {-1190.781, -774.861, 16.331 ,"Arcade",35.514,0x72551375,"cs_lifeinvad_01"},
+  {621.378, 2761.059, 41.088   ,"Arcade",87.515,0x72551375,"cs_lifeinvad_01"},
+  {-3176.004, 1048.563, 19.863 ,"Arcade",236.963,0x72551375,"cs_lifeinvad_01"},
+  {119.777, -219.1, 53.558     ,"Arcade",235.767,0x72551375,"cs_lifeinvad_01"},
+
+}
+Citizen.CreateThread(function()
+    for _,v in pairs(arcade) do
+        RequestModel(GetHashKey(v[7]))
+        while not HasModelLoaded(GetHashKey(v[7])) do
+            Wait(1)
+        end
+        ArcadePed =  CreatePed(4, v[6],v[1],v[2],v[3], 3374176, false, true)
+        SetEntityHeading(ArcadePed, v[5])
+        FreezeEntityPosition(ArcadePed, true)
+        SetEntityInvincible(ArcadePed, true)
+        SetBlockingOfNonTemporaryEvents(ArcadePed, true)
+        TaskStartScenarioInPlace(ArcadePed, "WORLD_HUMAN_STAND_MOBILE_UPRIGHT", 0, true) 
+    end
+end)
