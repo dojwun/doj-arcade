@@ -388,3 +388,33 @@ Citizen.CreateThread(function()
         TaskStartScenarioInPlace(ArcadePed, "WORLD_HUMAN_STAND_MOBILE_UPRIGHT", 0, true) 
     end
 end)
+
+--======================================== qb-target
+exports['qb-target']:AddTargetModel(`cs_lifeinvad_01`, {
+    options = {
+        {
+            event = "arcade:client:openTicketMenu",
+            icon = "fab fa-speakap",
+            label = "Speak with Arcade Employee",
+        },
+    },
+distance = 2.5 
+})
+
+local ArcadeGames = {
+    `ch_prop_arcade_degenatron_01a`,
+    `ch_prop_arcade_monkey_01a`,
+    `ch_prop_arcade_penetrator_01a`,
+    -395173800,
+
+}
+exports['qb-target']:AddTargetModel(ArcadeGames, {
+    options = {
+        { 
+            event = "arcade:client:openArcadeGames",
+            icon = "fas fa-gamepad",
+            label = "Play Arcade Games",
+        },
+    },
+    distance = 3.0 
+})
