@@ -61,7 +61,9 @@
 		["description"] = "Gold Arcade Card"
 	},
  ``` 
-- qb-inventory/html/js/app.js
+# Optional (if you are not using my **[qb-inventory](https://github.com/dojwun/qb-inventory)**)
+- This code is to display **[Inventory Tooltip](https://i.imgur.com/ojZFbAe.png)** 
+- inside ```qb-inventory/html/js/app.js``` look for the ```function FormatItemInfo```
 ```
 	  else if (itemData.name == "arcadeblue") {
             $(".item-info-title").html('<p>'+itemData.label+'</p>')
