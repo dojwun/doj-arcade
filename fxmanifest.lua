@@ -5,7 +5,6 @@ games { 'gta5' }
 
 
 shared_scripts { 
-	'@qb-core/import.lua',
 	'config.lua'
 }
 
