@@ -1,4 +1,6 @@
 
+local QBCore = exports['qb-core']:GetCoreObject()
+
 RegisterNetEvent("rcore_arcade:server:buyTicket")
 AddEventHandler("rcore_arcade:server:buyTicket", function(ticket)
     local src = source
