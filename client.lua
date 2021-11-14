@@ -1,4 +1,6 @@
 
+local QBCore = exports['qb-core']:GetCoreObject()
+
 local gotTicket = false
 local minutes = 0
 local seconds = 0
