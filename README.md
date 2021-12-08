@@ -1,5 +1,9 @@
 # Edited Version of Rcore_Arcade for QBus
 
+| If you are intested in recieving github updates join the community on **[Discord](https://discord.gg/NVsaunpesE)**! |
+|----|
+
+
 **[Source](https://github.com/Xogy/rcore_arcade)**
 
 **[Edited preview](https://streamable.com/ylfw1i)**
